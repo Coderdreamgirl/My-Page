@@ -1,102 +1,101 @@
 body {
-    margin: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-    background-color:#0F4B80;
-     }
+  margin: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color:#0F4B80;
+}
 
 h1{
-    text-align: center;
-    font-family: 'Birthstone';
-    font-size: 60px;
-  }
+  text-align: center;
+  font-family: 'Birthstone';
+  font-size: 60px;
+}
   
 h4{
-    text-align: center;
-    font-family: 'Birthstone';
-    font-size: 34px;
-  }
+  text-align: center;
+  font-family: 'Birthstone';
+  font-size: 34px;
+}
   
 p{
-    font-family: Veranda, sans-serif;
-  }
+  font-family: Veranda, sans-serif;
+}
   
 .aboutme{
-    font-family: Georgia, serif;
-  
-  }
+  font-family: Georgia, serif;
+}
      
 img{
-    height: 10%;
-    width: 40%;
-    align-items: center;
-  }
+  height: 10%;
+  width: 40%;
+  align-items: center;
+}
+
 nav{
-    /*background-color: rgb(255, 148, 114);*/
-    padding: 8px;
-    text-align: auto;
-  }
+  /*background-color: rgb(255, 148, 114);*/
+  padding: 8px;
+  text-align: auto;
+}
   
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 4px;
-    overflow: hidden;
-    background-color: #333;
-    align-items: left;
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 4px;
+  overflow: hidden;
+  background-color: #333;
+  align-items: left;
+}
+
 li {
   display: block;
   float: right;
 }
   
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
   
 li a:hover {
-    background-color: #111;
-  }
-  
+  background-color: #111;
+}
   
 #home-footer{
-    position: sticky;
-    width: 100%;
-    color:rgb(255, 255, 255);
-    text-align: center;
-    margin-bottom: 0;
-    font-weight: bold;
-    font-family: Helvetica;
-  }
+  position: sticky;
+  width: 100%;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: Helvetica;
+}
   
 #image1{
-    height: 75%;
-  }
+  height: 75%;
+}
   
 #image2{
-    height: 75%;
-  }
+  height: 75%;
+}
+
 #myimage{
-    padding: 20px 25px;
-    width: 250px;
-    height: 275px;
-  }
+  padding: 20px 25px;
+  width: 250px;
+  height: 275px;
+}
+
 .center{
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
   
 *{
-    margin: 0px;
-    padding: 0px
-  }
-  /*asterisk is the least level of selector in CSS rules. class and   */
-  
+  margin: 0px;
+  padding: 0px
+}  
