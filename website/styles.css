@@ -7,3 +7,26 @@ nav{
     border: 1px solid #545F66;
     opacity: 1;
 }
+
+.myself{
+    top: 220px;
+    left: 153px;
+    width: 478px;
+    height: 517px;
+    opacity: 1;
+}
+
+.name{
+    top: 765px;
+    left: 107px;
+    width: 602px;
+    height: 134px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 50px/67px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+/* add code for hovers
+and give classes to each aspect before */
