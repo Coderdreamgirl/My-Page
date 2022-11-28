@@ -1,0 +1,227 @@
+.mediaViewInfo {
+    --web-view-name: Resume;
+    --web-view-id: Resume;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Resume;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Resume {
+    position: absolute;
+    width: 1920px;
+    height: 1746px;
+    background-color: rgba(39,104,144,0.91);
+    overflow: hidden;
+    --web-view-name: Resume;
+    --web-view-id: Resume;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#Nav_Bar_Background {
+    fill: rgba(84,95,102,1);
+    stroke: rgba(84,95,102,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Nav_Bar_Background {
+    overflow: visible;
+    position: absolute;
+    width: 1920px;
+    height: 204px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Name {
+    position: absolute;
+    width: 708px;
+    height: 236px;
+    left: -59px;
+    top: -32px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Homepage.html;
+    cursor: pointer;
+}
+#Rectangle_13 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_13 {
+    position: absolute;
+    overflow: visible;
+    width: 1074px;
+    height: 1298px;
+    left: 463px;
+    top: 268px;
+}
+#bring_resume_from_illustrator {
+    left: 747px;
+    top: 847px;
+    position: absolute;
+    overflow: visible;
+    width: 526px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(112,112,112,1);
+}
+#Portfolio {
+    position: absolute;
+    width: 165px;
+    height: 84px;
+    left: 1081px;
+    top: 67px;
+    overflow: visible;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Portfolio.html;
+    cursor: pointer;
+}
+#contact_button {
+    fill: rgba(220,80,46,1);
+    stroke: rgba(220,80,46,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.contact_button {
+    overflow: visible;
+    position: absolute;
+    width: 165px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Portfolio_r {
+    left: 33px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(255,249,249,1);
+}
+#Resume_s {
+    position: absolute;
+    width: 165px;
+    height: 84px;
+    left: 1594px;
+    top: 67px;
+    overflow: visible;
+}
+#contact_button_t {
+    fill: rgba(220,80,46,1);
+    stroke: rgba(220,80,46,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.contact_button_t {
+    overflow: visible;
+    position: absolute;
+    width: 165px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Resume_u {
+    left: 39px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 89px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(255,249,249,1);
+}
+#Contact {
+    position: absolute;
+    width: 165px;
+    height: 84px;
+    left: 1332px;
+    top: 67px;
+    overflow: visible;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Contact.html;
+    cursor: pointer;
+}
+#contact_button_w {
+    fill: rgba(220,80,46,1);
+    stroke: rgba(220,80,46,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.contact_button_w {
+    overflow: visible;
+    position: absolute;
+    width: 165px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Contact_x {
+    left: 39px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 88px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(255,249,249,1);
+}
