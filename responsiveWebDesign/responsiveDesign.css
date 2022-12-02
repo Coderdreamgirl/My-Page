@@ -1,47 +1,33 @@
-.balance{
-    width: 200px;
-}
-
-#cats{
-    float: right;
-}
-/*
-.marker{
-    width: 200px;
-}
-.nutrition{
-    width: 200px;
-}
-.photoGallery{
-    width: 200px;
-}
-.picasso{
-    width: 200px;
-}
-.quiz{
-    width: 200px;
-}
-.register{
-    width: 200px;
-}
-.rothko{
-    width: 200px;
-}
-.survey{
-    width: 200px;
-} */
 * {
     box-sizing: border-box;
-  }
-
-.gallery{
+}
+  
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+}
+ 
+nav {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: rgb(255, 255, 255);
+    border-bottom: 4px solid #ff9900;
+}
+img{
+    width: 350px;
+}
+  
+.gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 16px;
-    max-width: 1400px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px 10px;
 }
@@ -58,7 +44,3 @@
     content: "";
     width: 350px;
 }
-img{
-    border: 1px solid black;
-}
-  
