@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="surveyStyles.css"/>
+    </head>
+    <body>
+        <div>
+            <h1 id="title">About You</h1>
+            <p id="description">Tell me interesting facts about yourself!</p>
+
+            <form id="survey-form">
+                <fieldset>
+                    <label id="name-label">Name: <input type="text" id="name" required placeholder="Taylor Swift"/></label>
+                    <label id="email-label">Email: <input type="email" id="email" required placeholder="example.example@email.com"/></label>
+                    <label id="number-label">Age: <input type="number" id="number" min="12" max="100" required placeholder="16"/></label>
+                    <label>Where were you born?<br/>
+                        <input type="radio" name="place" value="africa" chekcked> Africa<br/>
+                        <input type="radio" name="place" value="asia"> Asia<br/>
+                        <input type="radio" name="place" value="australia"> Australia<br/>
+                        <input type="radio" name="place" value="europe"> Europe<br/>
+                        <input type="radio" name="place" value="noam"> North America<br/>
+                        <input type="radio" name="place" value="soam"> South America<br/>
+                        <input type="radio" name="place" value="us"> United States<br/>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>Any pets?
+                        <select id="dropdown">
+                            <option value="">(select one)</option>
+                            <option value="1">Cats</option>
+                            <option value="2">Dogs</option>
+                            <option value="3">Other</option>
+                            <option value="4">None</option>
+                            <option value="5">I DON'T LIKE PETS!!!</option>
+                        </select> 
+                     </label>
+                     <label>What are your favorite colors?(check all that apply)<br/>
+                        <input type="checkbox" class="color" value="red" checked> Red
+                        <input type="checkbox" class="color" value="orange">Orange   
+                        <input type="checkbox" class="color" value="yellow">Yellow
+                        <input type="checkbox" class="color" value="green">Green
+                        <input type="checkbox" class="color" value="blue">Blue
+                        <input type="checkbox" class="color" value="violet">Violet<br/>
+                        <input type="checkbox" class="color" value="purple">Purple
+                        <input type="checkbox" class="color" value="pink">Pink
+                        <input type="checkbox" class="color" value="brown">Brown
+                        <input type="checkbox" class="color" value="grey">Grey
+                        <input type="checkbox" class="color" value="black">Black
+                        <input type="checkbox" class="color" value="white">White
+                    </label>
+                    <label>What is your favorite type of food?<br/>
+                        <input type="radio" name="food" value="veggies" checked>Vegetables
+                        <input type="radio" name="food" value="fruits">Fruits
+                        <input type="radio" name="food" value="grains">Grains
+                        <input type="radio" name="food" value="beans">Beans
+                        <input type="radio" name="food" value="nuts">Nuts<br/>
+                        <input type="radio" name="food" value="meat">Meat
+                        <input type="radio" name="food" value="birds">Poultry
+                        <input type="radio" name="food" value="fish">Fish
+                        <input type="radio" name="food" value="diary">Diary products
+                    </label>
+                    <label>What is your most favorite Genre to read?<br/>
+                        <input type="radio" name="genre" value="fantasy" checked>Fantasy
+                        <input type="radio" name="genre" value="adventure">Adventure
+                        <input type="radio" name="genre" value="romance">Romance
+                        <input type="radio" name="genre" value="dystopian">Dystopian
+                        <input type="radio" name="genre" value="mystery">Mystery
+                        <input type="radio" name="genre" value="horror">Horror<br/>
+                        <input type="radio" name="genre" value="his-fi">Historical Fiction
+                        <input type="radio" name="genre" value="sci-fi">Science Fiction
+                        <input type="radio" name="genre" value="non-fic">Non-Fiction
+                    </label>
+                    <label>What is your favorite dessert? <textarea placeholder="My favorite dessert is..."></textarea>
+                    </label>
+                </fieldset>
+            <input type="submit" id="submit">
+            </form>
+        </div>
+    </body>
+</html>
